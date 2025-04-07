@@ -14,18 +14,14 @@
       text-shadow: 1px 1px 3px #000;
     }
 
-    .text-logo {
+    .logo-container {
       text-align: center;
-      padding: 30px 20px 0 20px;
-      font-size: 1.2em;
-      line-height: 1.4;
+      padding-top: 20px;
     }
 
-    .text-logo strong {
-      font-size: 2.5em;
-      color: #4593d0;
-      display: block;
-      margin-bottom: 5px;
+    .logo-container img {
+      max-width: 320px;
+      height: auto;
     }
 
     .overlay {
@@ -36,18 +32,61 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1, h2, p, ul, li {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 0;
+    }
+
+    .contact {
+      margin-top: 30px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #aad4ff;
     }
   </style>
 </head>
 <body>
+
+  <div class="logo-container">
+    <img src="jhsm_logo.png" alt="John Howard Society of Miramichi Logo">
+  </div>
+
   <div class="overlay">
-    <div class="text-logo">
-      <strong>John Howard</strong>
-      <strong>THE JOHN HOWARD SOCIETY OF MIRAMICHI</strong>
-      <strong>LA SOCIÉTÉ JOHN HOWARD DE MIRAMICHI</strong>
+    <h1>Record Suspension</h1>
+    <h2>Previously known as a Pardon</h2>
+
+    <p>
+      The John Howard Society Miramichi has available a dedicated
+      <strong>"Navigator"</strong> to assist you with the Record Suspension application.
+    </p>
+
+    <p><strong>For qualifying ex-offenders:</strong></p>
+    <ul>
+      <li>One-on-one assistance</li>
+      <li>Eligibility assessment</li>
+      <li>Cost-related supports</li>
+      <li>Help in both official languages</li>
+    </ul>
+
+    <div class="contact">
+      <p><strong>Contact:</strong> Ed Rawlinson, Navigator</p>
+      <p>599 King George Hwy, Miramichi, NB E1V 1N9</p>
+      <p>Phone: 506-625-5609</p>
+      <p>Email: <a href="mailto:jerawlinson@gmail.com">jerawlinson@gmail.com</a></p>
     </div>
   </div>
+
 </body>
 </html>
